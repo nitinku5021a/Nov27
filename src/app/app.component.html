@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+
+
+<div class = "jumbotron">
+<div class="row">
+
+  <div class="col-sm-4" *ngFor="let cont of contacts">
+
+    <div class = "card">
+      <div class ="card-block" >
+        <p class="card-text">
+          {{cont.firstName}}  {{cont.lastName}}
+          <br>
+          {{cont.address}}
+
+
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+</div>
